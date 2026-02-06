@@ -1,0 +1,28 @@
+{
+  "store_name": "EcoWear Co.",
+  "last_updated": "2026-02-06",
+
+  "returns": {
+    "window_days": 30,
+    "free_returns": true,
+    "conditions": "Items must be unused and returned with original tags.",
+    "refund_method": "Original payment method"
+  },
+
+  "shipping": {
+    "standard_delivery_time": "3-5 business days",
+    "free_shipping_over": 5000,
+    "shipping_regions": ["India"],
+    "tracking_available": true
+  },
+
+  "warranty": {
+    "available": false,
+    "notes": "Products are covered only for standard manufacturing defects at the time of delivery. No extended warranty is offered."
+  },
+
+  "support": {
+    "contact_method": "email",
+    "response_time": "24-48 hours"
+  }
+}
