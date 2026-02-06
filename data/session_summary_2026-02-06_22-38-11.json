@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-02-06T22:38:11.712124",
+  "classifier_mode": "LLM (LLaMA 3.1)",
+  "response_generation": "Grounded (No Hallucination)",
+  "total_turns": 10,
+  "conversation": [
+    {
+      "turn": 1,
+      "user": "Show me your winter hoodies",
+      "assistant": "We have three winter hoodies available: Winter Fleece Hoodie, Slim Fit Thermal Hoodie, and Premium Waterproof Hoodie. They are priced at $49.99, $59.99, and $89.99 respectively.",
+      "intelligence": {
+        "intent": "browsing",
+        "objection": "none",
+        "purchase_stage": "early",
+        "sentiment": "neutral",
+        "confidence": 1.0
+      }
+    },
+    {
+      "turn": 2,
+      "user": "What's the difference between the two hoodies?",
+      "assistant": "The Winter Fleece Hoodie has a relaxed fit and is made from cotton fleece, while the Slim Fit Thermal Hoodie has a slim fit and is made from a polyester blend with thermal interior.",
+      "intelligence": {
+        "intent": "product_comparison",
+        "objection": "none",
+        "purchase_stage": "consideration",
+        "sentiment": "neutral",
+        "confidence": 1.0
+      }
+    },
+    {
+      "turn": 3,
+      "user": "The Premium one is expensive. Is it worth it?",
+      "assistant": "The Premium Waterproof Hoodie features a waterproof design with sealed seams, wind resistance, and thermally insulated material. Its price is $8999 due to its high-quality materials and advanced features.",
+      "intelligence": {
+        "intent": "price_evaluation",
+        "objection": "price_sensitivity",
+        "purchase_stage": "decision",
+        "sentiment": "anxious",
+        "confidence": 0.8
+      }
+    },
+    {
+      "turn": 4,
+      "user": "I'm worried it won't fit me. I'm 6 feet tall.",
+      "assistant": "The Winter Fleece Hoodie has a relaxed fit, and it comes in sizes XS to XXL.",
+      "intelligence": {
+        "intent": "fit_validation",
+        "objection": "fit_uncertainty",
+        "purchase_stage": "consideration",
+        "sentiment": "anxious",
+        "confidence": 0.9
+      }
+    },
+    {
+      "turn": 5,
+      "user": "Still not 100% sure about this.",
+      "assistant": "This hoodie has a relaxed fit, and it comes in sizes XS to XXL.",
+      "intelligence": {
+        "intent": "purchase_readiness",
+        "objection": "fit_uncertainty",
+        "purchase_stage": "decision",
+        "sentiment": "anxious",
+        "confidence": 0.8
+      }
+    },
+    {
+      "turn": 6,
+      "user": "How long does shipping take?",
+      "assistant": "Shipping typically takes 3-5 business days, and you can track your order if it's shipped to an eligible region.",
+      "intelligence": {
+        "intent": "policy_clarification",
+        "objection": "none",
+        "purchase_stage": "consideration",
+        "sentiment": "neutral",
+        "confidence": 1.0
+      }
+    },
+    {
+      "turn": 7,
+      "user": "I want to buy the Premium Waterproof Hoodie in size L.",
+      "assistant": "The Premium Waterproof Hoodie in size L is available for purchase. It features a waterproof design with sealed seams and thermally insulated lining, made from nylon material.",
+      "intelligence": {
+        "intent": "purchase_readiness",
+        "objection": "none",
+        "purchase_stage": "decision",
+        "sentiment": "positive",
+        "confidence": 1.0
+      }
+    },
+    {
+      "turn": 8,
+      "user": "idk man feels pricey tbh",
+      "assistant": "The Winter Fleece Hoodie is made from cotton fleece, which provides warmth and comfort. It also features durable stitching for long-lasting wear.",
+      "intelligence": {
+        "intent": "price_evaluation",
+        "objection": "price_sensitivity",
+        "purchase_stage": "decision",
+        "sentiment": "anxious",
+        "confidence": 0.8
+      }
+    },
+    {
+      "turn": 9,
+      "user": "size chart confusing \ud83d\ude15",
+      "assistant": "Our Winter Fleece Hoodie has a relaxed fit, and it comes in sizes XS to XXL.",
+      "intelligence": {
+        "intent": "fit_validation",
+        "objection": "none",
+        "purchase_stage": "consideration",
+        "sentiment": "anxious",
+        "confidence": 0.8
+      }
+    },
+    {
+      "turn": 10,
+      "user": "umm still not sure",
+      "assistant": "This hoodie has a relaxed fit and comes in sizes XS to XXL.",
+      "intelligence": {
+        "intent": "purchase_readiness",
+        "objection": "fit_uncertainty",
+        "purchase_stage": "decision",
+        "sentiment": "anxious",
+        "confidence": 0.8
+      }
+    }
+  ],
+  "session_summary": {
+    "primary_intent": "purchase_readiness",
+    "dominant_objection": "fit_uncertainty",
+    "journey_path": [
+      "browsing",
+      "comparison",
+      "price",
+      "fit",
+      "purchase",
+      "policy",
+      "purchase",
+      "price",
+      "fit",
+      "purchase"
+    ],
+    "funnel_outcome": "converted",
+    "conversion_likelihood": "high",
+    "recommended_followup": "highlight size guide and free returns"
+  }
+}
